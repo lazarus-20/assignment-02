@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+
+        <div class="navbar bg-base-100">
+            <div class="w-50 rounded-full">
+                <img class="h-10" src="assets/logo.png"alt="logo" >
+              </div>
+           
+            <div class="flex-1">
+                <a class="btn btn-ghost text-xl">Home</a>
+              </div>
+              <div class="flex-2">
+                <a class="btn btn-ghost text-xl">Products</a>
+              </div>
+              <div class="flex-3">
+                <a class="btn btn-ghost text-xl">Checkout</a>
+              </div>
+              <div class="flex-4">
+                <button class="btn btn-ghost btn-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                  </button>
+              </div>
+            <div class="flex-none">
+              <div class="dropdown dropdown-end">
+                <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                  <div class="indicator">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
+                  </div>
+                </div>
+                <div tabindex="0" class="mt-3 z-[1] card card-compact dropdown-content w-52 bg-base-100 shadow">
+                  <div class="card-body">
+                    <span class="font-bold text-lg"></span>
+                    <span class="text-info"></span>
+                    <div class="card-actions">
+                      <button class="btn btn-primary btn-block">View cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dropdown dropdown-end">
+                <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+                  <div class="w-10 rounded-full">
+                    <img alt="" src="assets/124599.jpeg" />
+                  </div>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li>Account</li>
+                  <li>
+                    <a class="justify-between">
+                      Profile
+                     
+                    </a>
+                  </li>
+                  <li><a>Billing</a></li>
+                  <li><a>Login</a></li>
+                  <li><a>Sign Up </a></li>
+                </ul>
+              </div>
+            </div>
+          </div
+
+    </header>
+    <main>
+        <div class="main">
+              <div>
+
+                <h1><b>HAYLOU<br>SOLAR PULSE</b></h1>
+                <div class="py-6";>Effortless communication at your fingertips.</div><br><br><br>
+                <p class="py-6";>Bluetooth 5.2 for easy, secure communication <br>
+                Precise 143 Amoled display for clear visuals</p>
+                <button class="btn btn-primary">Learn More</button>
+              </div>
+              <div class="relative -right-14" class="right">
+                <img  style="align-items: end;" src="assets/Watch50.png" class="max-w-sm rounded-lg shadow-2xl" />
+              </div>
+          </div>
+          <div class="mb-96">
+            <img src="assets/hero-90770447.png" alt="Watch">
+          </div>
+          <div class="flex flex-col items-center justify-center"><h1 class="text-5xl font-black text-primary uppercase mt-10">The future of tech is here</h1><a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background bg-primary text-primary-foreground hover:bg-primary/90 h-10 py-2 px-4 mt-10" href="/products">Brows all products</a></div>
+          
+          
+<footer><div class="bg-[#242630] text-secondary p-20"><div class="flex justify-between"><div><img class="h-10" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQIAAAA9CAYAAABGFGecAAAACXBIWXMAAAInAAACJwG+ElQIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAA64SURBVHgB7Z3Pb9vWHcC/j5SSNE4ToVgxFCtWteuAnRZlp3YYELlNO+wUG23sJD1Uvq3Ntsp/Qey/wMrQZLtZObROlBR2TgUap2aADQ2wg5XbgG2ogmEYdmmVJk7SSOTb90tSEkWRIilRsiV9P4AsmZL4KPK97/v+fBQQgl/lZVYCnKTXfy2IxcY2Q8AW7C5VIaGMz2UBcOMvBaEBwzCRSXR785d5mQMB5w2ANP0vJWiwt0hJAVl8JkGVf31RVvB56c6KuAwMw4TGUxC8lpdpRcA6vszACIFaQRofRRQISyi0pu8URAUYhglEcW9AIZBDIbANIyYEnJBAoN/wel7OAMMwgbQJAho4OIBW8WUKRp+UQK3mtUX5PjAM05WmICBzQFhCYKzAH1ig3wYMw/jSFASKFQEYB03ATcr2dzAM44MpCMzogB0ZGFMybCIwjD+WRoAhQhhz0IG4BAzDeKJQYhCMtzZgQpGE16zfyjCMC6WRMTgJqBP0WxkmCgpOlSObLxAVOwuRYRgXCTnCiUM9kI7y4bW1rbSqGlkYAjs7ysbCwnQVRhg8X1k8X+nOd5Ty3Nx0GXaJUmkL+7jh2891XdHOnJmuQEjW17dStZrRTFaTUlbn509swAhDKcbjGDL0I9JvTSTqaSnFUHIrDh82KHw70oIAhQBGZswIVBtCGEv4tGuCANs/iYN1ye99VdU1fJqGkDx5AilVlaut/UMFn0ZeEDDMpJNdXd1KjbpG1qBUupVTFHm88X+tVls+c+Y3lW7fUYBhJgzUDgr4pDm3HTpkfATjw3HDgFzjoar7Xwr6AgsCZuJQFKWq63LZuQ2FQw4mGBYEzERy5sxbGtr2TlMgvbZ2MwsTCvsIulCvJyqJhOno6oqUFI3wnlHQ2VhQlGAn4HffKfeBGTKiiFco3/gPNQXKM9FgAmFB0AU7pLQc9Llr125mccDnvN5LJKDwzjtv3gNmz1GvGzdUVTQFgRAyh07D5XFxGkaBTQNmYiHzANo1gNTUlD6RxWmsEYwA6+ufpxuvZ2e7h4FGoZ29BJptG+hZzzo2UaLQBZgwWBDsQcjUMAzlJDqzsFPKdK3Weq9U2qSnMpoiGn7mQpSMOP92zGKsjLsdIUQVvemaoqgb7747HduCsI5206iQmxl/+LqCv6mCdroWZ1tBqKp62TD0gmPTwHMKaP+HDtUzjXOA17mZ6GYYoqyqShmvxe1u19YptN3gd9sS5xTFSOPnfc1TEvosCPYQlNKcSOir6HzMYgfp9tEMvp9RVT1fKt0q6rqyHEUg0EDEoXc+qB0UAtShZnCgzGA7SzhIl/oZpN6/T9ptmQ5XHAh6Lo62wjI7O11Foafhy2xjm51TEOgbigoJgIMH63kcmB+h0Es1zoF0XAISyngOUECZiUG+17ZeT5rn0bul9muKGk/RMJLQBcE+gj0CDs48Rii2/S+uHzKnqsbWJ598EapmBDt9ATvhVg/tpLGDFq9e3VynDg0Rses2QrbbaOvWCgwBj5yCPMQM1TtMTRnbqGWdtwVsCOja6ttXrtyM/XjcsCDYA1y9enMJB+dK+A7iRqaTSSVQGOAgLuJTXxl0ZK4cPKhvRREG+Luy2KFX6TghAjg75ochDDxyClJx5hSUSl/kUNxse/x+alPDR9F+aCgoK67PpBRFrFAfgQHCpsEuY4ce41ghKpVMqjRbH/Oyb6kjYWePxSOO+8kcPGjQMS+G/EoWeoSEAQ7KG7aHf4AMJqeANCEhDBLyzW002KVU8o8f37+9sDDbca1KpS+PS2kU8Tynm0eHmsSnn26Wz561qhzxfTz3iSPerRr0O2YcG/JUAQpdYEGwy2CHWHXbdK33aHYQRZwR0DlozViWDSlzzk7i+EYa1U+aQRecW63OqAcJGw0fG1KqZjvkYPJvp68BSg7IIna9srUfnTQL0mRyfl/AWP95GHCiz6ByCixzqE3T23j06MGClwBoMDf3xm18ehm1ofN4HEuN7YkEuhlWtzQ6prm5t30HNhUdtfcpKgM39+kLC4JdxL5gaa/3KCNxfv5NrxmXLugyqfneM7zZgRedHRg7Yzf1WtP12oJPddqyuzM66WGAajs7D2a9BsHa2ufLipLc8hE8WTJ73nvv7YGVMpNAczkNGzkFPYcS3deXBHuQEHCC138Zj4mEZGN2Tw3Kkck+gl0EB5ifql70EQJN5udP5MBnEDor6UgbwC444/U5nKlwpjgx3a1ElTojagZ+x5L97LNbgZVtVltQ8RMCBB2DYdR81wRAH8hxGDCUU+DaNAP90aaF0e8LKwQaoLm34PRfDMKRSSjHXgUI+/jFq60vZn7S2v7zVwB++iOAF3+AnfAZYEJAq9z4edBxhg4l8d3e7gaG0Vo9p9sKS4ZRn4UQnD79VsHlTHMeQ6jBIoSSCxoEtkDSfN4OFRXpB8opcG3K9hIhIaxVkdq0PS1oTQAvKLwpZduiLqmwwjcKsZgGqmIJAHo8j6ftaQ3gv98AfPMAGB/q9XrGXFu5k8qBA90TRhx7qdRqnfFhdCxlHEkxngu2YufaiNYxW840SvxBbUYDc9Uh43bQN0kbmJ9/I/BzZitCaBRl8NhHjxGV8MSbU9CxNNoG9Ig7+9E+P7HmWAzER7AP++ZLPwR44TmAf/wHBUMdGBfY4Y9Kbx9hGgf319Anhw8b5FGu4oBNebWDM7wGEZBSvyxEQnv40NvTHUBo2x6P1TMDzpl9N0hIy0LfRxaax2MKv8iCAI+37fqi8ExbPoPooBDIOJ1/tC+ImYE6C0kg/OzHAPf+B3B/BxgHlFnmFy2IA10XaXy6Z3Uar3aUSI4320vdk7OOoh4wIpDT8Nq1zapDAzFzCqJGR9waDEVZICZQMMQuFAfuLCSz4ZUXAJ57FhhmRCAzqAVqCHuqIpG0PIiZSBqBdIR26gmoqEb47774PMDDx2wmMHsfd04BMuMOyfYAaUV95SS49hUrPZsGB55AtbYv/OcbmsHf/w0MmFK96mW7Wx5itQB9YhhP7nVrhxKGwMpJCAU5H9GJmeqn2nFUGEROQa1mLAwyD6JfIgkCun9gfkWmCouiSo9zF2UFItw05Jn9lonA0QSz3PS+l+1OTrG5ufiq7sjDj387Qm/oQ6BtoduZmqKQpFxFh1cF/9WoXBjj4ne7ZbiNMv2uU0D3OnAK4P37laOwi/d2CCKyjwBNglanEtFDIhRJYKy76/i8lQ5bSUiQJ9pKGvJGUcwwXwd2Cm0UW9MOQ1JsXOaoOhD3vj2sCsFh45VTECV+j+f3rvN/W/DuWSILAqm24tLJ76OrShRJ4KSjxnqINFt3kkgooYqQ7KzBVcpnp6IiL4FQq7V3SAcpu3AobDs+iUNyLDUCyikAV3IT3SMAQoKCRHP+34PgbXL16ubM9etbA3VYRo8aSMiReUAv0TyooFYQ2Z49MgUMmOpj0Wf7TFDZaaO+3/qPVrkR5+l/d4fxWJfP0Q6V+UZppx0rUejE0FYTGjb9rFPgIUhCC14nVsGYWCENDLW/rwclEHpxFqae7oNmthVqBcvoNKTZIh12B8+yRmCCM/+Fel3Pe2XN0cDGC/8+rdTz4AHcaHisKeNQ1w+cNAwqNXUXLFkLely58mX59Ok3mpoA7v+C8LkTtLMdsvl3dpKVVOpJql5PpMlGtlbT8Q1XLcEYc+BAoozXpyOnAJ8rYb7vTk6yBO9mOYrwtArGGtfZvL5ZiDmrkOgpjwCdhvnf/sk6OHIaJp+aN5CshP3+viQwYM0afvUCFtbARo/1t+jFlvSgrENrjT3fqsUlpxAg7Dv1akHtkM1PbVEbtIpRt9V0xl0bIKxZvT2nQFFE6IVdrAVPRJvGTFpgmEVGyIywFpJpmWR0zsPWoTjBaxtokvQaPkypBqyjiTBtRxAq9Bo1A1Ih00FfVrnmsQkV9OAFz8SxaAhVE+Lg9OwoyaQ6+/Spvu23vkC0dqBrpeA40blOAWRVNXxmH2p9y7WaOYtnWvtoamEFKet3Hz5MlEnjo8E/NVVLoxCesTSx9nZ0XV88eza4PoQKxJwRC2rn+vXNDh8P3c791Km3zMrSfoZkBgd+02NMwuDiOfGy1M1FMSrAhIZKit0zR1RICDx69NB3cNLsZg/evpx7DSHQSyXdKOJ17wMhvH0mXlhaX42qPF3n3dTCzPUjGxofPZNW5qWJoZmWP3v216GidCS8Ottq3RS18SCB0/hEv7UGuQ8vypShwOKfP7A84Jf+YKpSxQ8/lieFgnap9C4fHVyW/Why6tSbi1eu3LyHneCjqLM2LWLy6NGD5ZBlvse6LTYSwEaUhTXGBXdFZNS1Jfs57yR4qYQbzb3QyV9WvcStQhTnZt9FR+gvmFFwsOPAz1/6nWhKIvv1DZgApEzgwNA1r/ei3NOQzIS1tc9R6quofipki3aLPZtLfmHHujw/Hy2phxYbwXYuq2qSQsG5oHbALKFVikHLXUlpkCDT3NvR4XYPQoLf/5bupdC5797DlNQ+nk+tl+MhyKlrq/d+VCAEjvNuLyXvL/CtDFOBgve7C70IXppY1ta+uIs+jaNUlg4Bxy3OXZSojsRTzYSzfFEx4PLHv+/sDEx0VlfX0WY8ctRZdqoosoqPcpz3UxxWO0w7pRIljiWO7IXzToJgG2Je/UUKlDTStKvKKBg8E1rK/4Kh8z3Obn8rjE5JLMMMiwTQAhUyXkEgzLvWWFlY0scdaQgYOvukmfzEgoBhXChCnww7njBE78tFMcw4o9j2fAXGHPRfVL5aEaE9rwwzSZiKO8b+Y18nfa8hxzwdlmH6oWmpD8Jp2I3tf8LQsLWBl4FhGE+arrzkU6Dsp3FMFKF0y4lIh2WYXmkKAkoRluFvajkyoBBYuFPwrvtnGMaiLbh36ZwoCmNsNIOqgSHMrwqCIwUME0BHlB+jCBtoJhyD0Y4klA0Jx+6siLEuk2WYuOia1vPhH2VOqOaNHNMQM4NwFpJTkKIDLAAYJhqh8vs+uCSPK7SKK2Ug0iOG20/FJAiqQNVZABolC3GeAMMwDMP0yP8BycAgUHeEfOYAAAAASUVORK5CYII=" alt="Logo"></div> 
+ <div class="flex gap-20"><ul class="space-y-2"><li>Upcoming</li><li>Shipping</li><li>How it works</li></ul><ul class="space-y-2"><li>Support</li><li>Careers</li></ul><ul class="space-y-2"><li>List your gear</li><li>Contact team</li></ul></div><div class="flex gap-2 text-2xl"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0h24v24H0z"></path><path d="M15.402 21v-6.966h2.333l.349-2.708h-2.682V9.598c0-.784.218-1.319 1.342-1.319h1.434V5.857a19.19 19.19 0 0 0-2.09-.107c-2.067 0-3.482 1.262-3.482 3.58v1.996h-2.338v2.708h2.338V21H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1h-4.598z"></path></g></svg><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0h24v24H0z"></path><path fill-rule="nonzero" d="M12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm0-2a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm6.5-.25a1.25 1.25 0 0 1-2.5 0 1.25 1.25 0 0 1 2.5 0zM12 4c-2.474 0-2.878.007-4.029.058-.784.037-1.31.142-1.798.332-.434.168-.747.369-1.08.703a2.89 2.89 0 0 0-.704 1.08c-.19.49-.295 1.015-.331 1.798C4.006 9.075 4 9.461 4 12c0 2.474.007 2.878.058 4.029.037.783.142 1.31.331 1.797.17.435.37.748.702 1.08.337.336.65.537 1.08.703.494.191 1.02.297 1.8.333C9.075 19.994 9.461 20 12 20c2.474 0 2.878-.007 4.029-.058.782-.037 1.309-.142 1.797-.331.433-.169.748-.37 1.08-.702.337-.337.538-.65.704-1.08.19-.493.296-1.02.332-1.8.052-1.104.058-1.49.058-4.029 0-2.474-.007-2.878-.058-4.029-.037-.782-.142-1.31-.332-1.798a2.911 2.911 0 0 0-.703-1.08 2.884 2.884 0 0 0-1.08-.704c-.49-.19-1.016-.295-1.798-.331C14.925 4.006 14.539 4 12 4zm0-2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2z"></path></g></svg></div></div><div class="flex w-full mt-20 gap-5"><p>Privacy Policy</p><p>Terms &amp; Condition</p><p class="ml-auto"> © TechNet 2024</p></div></div>
+</footer>
+          
+
+
+
+    
+    
+</body>
+</html>

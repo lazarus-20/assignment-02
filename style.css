@@ -1,0 +1,30 @@
+body,html{
+    height:100%;
+    margin:0;
+    display:flex;
+    justify-content: center;
+    align-items: top;
+}
+.main{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.right{
+    float: right;
+}
+.right img{
+    margin: 90px 40px 0 0;
+}
+.main h1{
+    font-size: 50px;
+}
+.container{
+    text-align:center;
+    position:center;
+    top: 10px;
+    height:100%;
+    margin:0;
+    display:flex;
+    justify-content: center;
+    align-items: top;
+}
